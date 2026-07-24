@@ -24,3 +24,6 @@ See sample: `avoid-raising-events-inside-try-functions.good.al`.
 Raising an integration event inside a TryFunction body. Subscriber failures are caught and discarded by the TryFunction. The subscriber contract — that a subscriber can signal failure to the caller — is silently broken.
 
 See sample: `avoid-raising-events-inside-try-functions.bad.al`.
+
+<!-- authoring-assist demo edit 2026-07-24T11:56:43.9832902+01:00 -->
+

@@ -24,3 +24,6 @@ See sample: `api-page-version-format.good.al`.
 `APIVersion = 'v2'` (missing minor), `APIVersion = '2.0'` (missing `v` prefix), `APIVersion = 'v2.0.0'` (extra segment). All three either fail to compile or produce a URL that consumers cannot reach.
 
 See sample: `api-page-version-format.bad.al`.
+
+<!-- authoring-assist demo edit 2026-07-24T11:56:43.9832902+01:00 -->
+
