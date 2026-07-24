@@ -20,3 +20,6 @@ When asked "is it OK to show this email/name/employee code on this page?", the a
 ## Anti Pattern
 
 Flagging an API page, list, card, or notification for surfacing customer-bearing fields (`E-Mail`, `Name`, `Phone No.`, audit fields, `User ID`). The permission system governs visibility; the page does not.
+
+<!-- authoring-assist demo edit 2026-07-24T11:56:43.9832902+01:00 -->
+
