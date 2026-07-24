@@ -26,3 +26,6 @@ See sample: `avoid-commit-inside-loops.good.al`.
 Placing Commit inside `repeat ... until Next() = 0` is almost always a mistake: it is unusual for the correctness of the operation to depend on per-row commits, and the cost of starting a new transaction on every row dominates the work. A capped query that discovers only an upper key and then re-reads an inclusive key range is not exact batching either; concurrent inserts inside that range can enlarge the checkpoint.
 
 See sample: `avoid-commit-inside-loops.bad.al`.
+
+<!-- authoring-assist demo edit 2026-07-24T11:56:24.5789256+01:00 -->
+
